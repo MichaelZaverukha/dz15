@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/reset.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+   <title>dz15</title>
+</head>
+<body>
+   <main>
+      <section class="main-form">
+         <h1>Profile</h1>
+         <form action="" class="main-form__form">
+            <div class="image-block">
+               <div class="image-block__image">
+                  <img src="./images/Image.png" alt="photo">
+               </div>
+               <div class="image-block__input">
+                  <div class="input">
+                     <input type="text" id="choose-file" name="choose-file">
+                     <a href="/"><img src="./images/photo-camera-svgrepo-com.svg" alt="camera" width="15" height="14"></a>
+                  </div>
+                  <label for="choose-file">Up to 1 MB (300x300 px)</label>
+               </div>
+               <div class="main-form__trash">
+                  <a href="/"><img src="./images/icons8-trash-can.svg" alt="trash" width="20" height="25"></a>
+               </div>
+            </div>
+            <div class="main-form__block">
+               <div class="main-form__name">
+                  <label for="name">Name</label>
+                  <input type="text" id="name">
+               </div>
+               <div class="main-form__email">
+                  <label for="email">E-mail</label>
+                  <input type="email" id="email">
+               </div>
+            </div>
+            <div class="main-form__block">
+               <div class="main-form__country">
+                  <label for="country">Country</label>
+                  <div class="main-form__select">
+                     <select name="select" id="country">
+                        <option value="Select" disabled selected>Select</option>
+                        <option value="USA">USA</option>
+                        <option value="Great Britain">Great Britain</option>
+                        <option value="Poland">Poland</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="main-form__city">
+                  <label for="city">City</label>
+                  <input type="text" id="city">
+               </div>
+            </div>
+            <div class="main-form__block">
+               <div class="main-form__zip">
+                  <label for="zip">Zip Code</label>
+                  <input type="text" id="zip">
+               </div>
+               <div class="main-form__tel">
+                  <label for="tel">Phone Number</label>
+                  <input type="tel" id="tel">
+               </div>
+            </div>
+            <button type="submit" name="button">Update</button>
+         </form>
+      </section>
+   </main>
+</body>
+</html>
