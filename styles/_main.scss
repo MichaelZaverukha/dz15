@@ -208,6 +208,7 @@
   &__input{
     display: flex;
     flex-direction: column;
+    
   }
 
 }
@@ -232,15 +233,18 @@
   border-radius: 6px;
   margin-bottom: 9px;
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
+  
+
   
   input{
     margin: 6px 9px 6px 10px;
     height: 18px;
     width: 96px;
     border: none;
+    outline: none;
   }
   
 }
